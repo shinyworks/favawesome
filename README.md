@@ -14,9 +14,8 @@ coverage](https://codecov.io/gh/shinyworks/favawesome/graph/badge.svg)](https://
 [![R-CMD-check](https://github.com/shinyworks/favawesome/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/shinyworks/favawesome/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
-Easily and flexibly use
-{[fontawesome](https://rstudio.github.io/fontawesome/)} icons as Shiny
-favicons (the icons that appear on browser tabs). [Font
+Easily use {[fontawesome](https://rstudio.github.io/fontawesome/)} icons
+as Shiny favicons (the icons that appear on browser tabs). [Font
 Awesome](https://fontawesome.com/) is a popular set of icons that can be
 used in web pages. {favawesome} provides a simple way to use these icons
 as favicons in Shiny applications and other HTML pages.
