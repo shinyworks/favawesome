@@ -22,20 +22,43 @@ knitr::opts_chunk$set(
 [![R-CMD-check](https://github.com/shinyworks/favawesome/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/shinyworks/favawesome/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
-The goal of favawesome is to...
+Easily and flexibly use Font Awesome icons as Shiny favicons.
+Font Awesome is a popular set of icons that can be used in web pages.
+favawesome provides a simple way to use these icons as favicons in Shiny applications and other HTML pages.
 
 ## Installation
 
+::: {.pkgdown-release}
+You can install the latest release of favawesome from [CRAN](https://CRAN.R-project.org) with:
+
+``` r
+install.packages("favawesome")
+```
+:::
+
+::: {.pkgdown-devel}
 You can install the development version of favawesome from [GitHub](https://github.com/) with:
 
 ``` r
-# install.packages("remotes")
-remotes::install_github("shinyworks/favawesome")
+# install.packages("pak")
+pak::pak("shinyworks/favawesome")
 ```
+:::
 
 ## Usage
 
-Add usage information and examples here.
+Add a call to `favawesome::fav()` at the top of your Shiny UI code or other HTML.
+
+``` r
+html_page <- htmltools::tags$html(
+  fav("earth-africa", fill = "blue"),
+  htmltools::tags$body(
+    htmltools::tags$h1("Hello world!"),
+    htmltools::tags$p("(on the browser tab)")
+  )
+)
+htmltools::html_print(html_page, viewer = utils::browseURL)
+```
 
 ## Code of Conduct
 

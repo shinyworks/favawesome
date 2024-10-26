@@ -1,0 +1,9 @@
+# fav generates the expected html
+
+    Code
+      htmltools::doRenderTags(test_result)
+    Output
+      <head>
+        <link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QA/wD/AP+gvaeTAAAC&#10;kUlEQVRYha2XO2gVQRSGv72IuZoYbIRoxCcJKOZhZWERDIKFtaigaGGlWInYKoKPELALRg1Y&#10;qa2FAZuIMUZF0eALQYwSEXwUBnLjs/gtZnPZbO7cOXPNgYEd9pz//2fOmbOzCWZTI7AT6AY6&#10;gDXA0vTlJPABGAOGgFuQTNmxqxO3ggZA0yAZxzToCqjlf4gXgXpBfyOI8+MPqAdUjCVvAb2o&#10;APgadA7Une5MPWgxaBVoO+g06HmFuAeg5VbyzaCvnhUdNWJ0g4ZzsR9B7ZaV+8gFemtcBaAE&#10;dAT0MyeiyRdQBI2F8xpr6gJNZjCeuPqa69hrK6yyf52rg/K8GbTFI2Ir6HcG51TeoTWi2oug&#10;haCRdD4MugD6nM6HQJsqiDicwZjKpUIDEUfrBuh2wOddBQEJ6GHGp2/mRSNxTcYyHnlS0ZXx&#10;KYEaAO2NBJ8CHXKFpDaXTz0GvQJdBR1wi/KZ3mSwdgO6HEH+ErTBD+4l7QSNgm6Cnmbw+hfg&#10;PiwWGwF2QPLDQHgQ2AeMAt+B40ClTtgB6Jtx9aEulhVwzIj5BWafz2qjYBcAoJMGzF8RAmox&#10;nbcIsKZgRQ0CGkMpKADjRrT98QLwtOayjQO6ZNyB36AT9p1QH+EGdxHQnog+kB/3POQFY/wu&#10;QEsMSiOLU+sNsSVQQyG9vV63bavZLPVyDZLSjOIW3AVyHnZAG9PVheppXT6wp8Y0rMxg1OO+&#10;F6GYsxV2REXc7TVWwKATodXpc8j/PqjOkxY1gSZqL8jg+ARqDtSG2nG31/kmnwC1BcjLIpaB&#10;7s4j+Sj+67hXRB3uthOq6FC1n6mSc5OQJlxbjRFSAvUz96jNsSRCSAPu93wb0AmsZfbv+Xvg&#10;GXAHGMw0mar2D9qzZsHVMlevAAAAAElFTkSuQmCC"/>
+      </head>
+
