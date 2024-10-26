@@ -4,15 +4,15 @@
 \name{favawesome-package}
 \alias{favawesome}
 \alias{favawesome-package}
-\title{favawesome: What the Package Does}
+\title{favawesome: Use 'Font Awesome' Icons as 'Shiny' 'favicons'}
 \description{
-The goal of favawesome is to...
+Easily and flexibly use 'Font Awesome' icons as 'Shiny' 'favicons'. 'Font Awesome' is a popular set of icons that can be used in web pages. 'favawesome' provides a simple way to use these icons as 'favicons' in 'Shiny' applications.
 }
 \seealso{
 Useful links:
 \itemize{
-  \item \url{https://github.com/shinyworks/favawesome}
   \item \url{https://shinyworks.github.io/favawesome/}
+  \item \url{https://github.com/shinyworks/favawesome}
   \item Report bugs at \url{https://github.com/shinyworks/favawesome/issues}
 }
 

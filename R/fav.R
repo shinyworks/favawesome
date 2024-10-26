@@ -1,0 +1,56 @@
+#' Use Font Awesome icons as favicons
+#'
+#' Generate the html necessary to use a Font Awesome icon as the favicon (the
+#' icon that appears on browser tabs) for a Shiny app or other HTML document.
+#'
+#' @inheritParams .fav_encode
+#' @inheritDotParams fontawesome::fa
+#'
+#' @return A `shiny.tag` (see [htmltools::tag()]) that can be used to embed a
+#'   favicon in a Shiny app or other HTML document.
+#' @export
+#' @examplesIf interactive()
+#' html_page <- htmltools::tags$html(
+#'   fav("earth-africa", fill = "blue"),
+#'   htmltools::tags$body(
+#'     htmltools::tags$h1("Hello world!"),
+#'     htmltools::tags$p("(on the browser tab)")
+#'   )
+#' )
+#' htmltools::html_print(html_page, viewer = utils::browseURL)
+fav <- function(name, ...) {
+  fav_base64 <- .fav_encode(name, ...)
+  fav_href <- .fav_as_href(fav_base64)
+  htmltools::tags$head(
+    htmltools::tags$link(rel = "icon", type = "image/png", href = fav_href)
+  )
+}
+
+#' Load Font Awesome icon and encode
+#'
+#' @inheritParams fontawesome::fa
+#' @inheritDotParams fontawesome::fa
+#'
+#' @return A base64-encoded character vector representing the icon png.
+#' @keywords internal
+.fav_encode <- function(name, ...) {
+  jsonlite::base64_enc(
+    rsvg::rsvg_png(
+      charToRaw(
+        fontawesome::fa(name, ...)
+      ),
+      width = 32,
+      height = 32
+    )
+  )
+}
+
+#' Add data URI prefix to base64-encoded icon
+#'
+#' @param fav_base64
+#'
+#' @return The base64-encoded icon with the data URI prefix.
+#' @keywords internal
+.fav_as_href <- function(fav_base64) {
+  paste0("data:image/png;base64,", fav_base64)
+}
