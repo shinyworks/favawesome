@@ -4,9 +4,11 @@
 \name{favawesome-package}
 \alias{favawesome}
 \alias{favawesome-package}
-\title{favawesome: Use 'Font Awesome' Icons as 'Shiny' 'favicons'}
+\title{favawesome: 'Font Awesome' Icons as 'Shiny' 'favicons'}
 \description{
-Easily and flexibly use 'Font Awesome' icons as 'Shiny' 'favicons' (the icons that appear on browser tabs). 'Font Awesome' is a popular set of icons that can be used in web pages. 'favawesome' provides a simple way to use these icons as 'favicons' in 'Shiny' applications and other HTML pages.
+\if{html}{\figure{logo.png}{options: style='float: right' alt='logo' width='120'}}
+
+Easily use 'Font Awesome' icons as 'Shiny' 'favicons' (the icons that appear on browser tabs). 'Font Awesome' is a popular set of icons that can be used in web pages. 'favawesome' provides a simple way to use these icons as 'favicons' in 'Shiny' applications and other HTML pages.
 }
 \seealso{
 Useful links:
@@ -18,7 +20,7 @@ Useful links:
 
 }
 \author{
-\strong{Maintainer}: Jon Harmon \email{jonthegeek@gmail.com} (\href{https://orcid.org/0000-0003-4781-4346}{ORCID})
+\strong{Maintainer}: Jon Harmon \email{jonthegeek@gmail.com} (\href{https://orcid.org/0000-0003-4781-4346}{ORCID}) [copyright holder]
 
 }
 \keyword{internal}
