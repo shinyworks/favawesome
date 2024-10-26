@@ -4,10 +4,10 @@ Version: 0.0.0.9000
 Authors@R: 
     person("Jon", "Harmon", , "jonthegeek@gmail.com", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0003-4781-4346"))
-Description: Easily and flexibly use 'Font Awesome' icons as 'Shiny'
-    'favicons'.  'Font Awesome' is a popular set of icons that can be used
-    in web pages.  'favawesome' provides a simple way to use these icons
-    as 'favicons' in 'Shiny' applications and other HTML pages.
+Description: Easily and flexibly use 'Font Awesome' icons as 'Shiny' 'favicons' 
+    (the icons that appear on browser tabs).  'Font Awesome' is a popular set of
+    icons that can be used in web pages.  'favawesome' provides a simple way to 
+    use these icons as 'favicons' in 'Shiny' applications and other HTML pages.
 License: MIT + file LICENSE
 URL: https://shinyworks.github.io/favawesome/,
     https://github.com/shinyworks/favawesome

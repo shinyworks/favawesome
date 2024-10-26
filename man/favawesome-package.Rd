@@ -6,7 +6,7 @@
 \alias{favawesome-package}
 \title{favawesome: Use 'Font Awesome' Icons as 'Shiny' 'favicons'}
 \description{
-Easily and flexibly use 'Font Awesome' icons as 'Shiny' 'favicons'. 'Font Awesome' is a popular set of icons that can be used in web pages. 'favawesome' provides a simple way to use these icons as 'favicons' in 'Shiny' applications.
+Easily and flexibly use 'Font Awesome' icons as 'Shiny' 'favicons' (the icons that appear on browser tabs). 'Font Awesome' is a popular set of icons that can be used in web pages. 'favawesome' provides a simple way to use these icons as 'favicons' in 'Shiny' applications and other HTML pages.
 }
 \seealso{
 Useful links:
