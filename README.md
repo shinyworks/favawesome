@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# favawesome
+# favawesome <a href="https://shinyworks.github.io/favawesome/"><img src="man/figures/logo.png" align="right" height="139" alt="favawesome website" /></a>
 
 <!-- badges: start -->
 
