@@ -16,6 +16,10 @@ knitr::opts_chunk$set(
 # favawesome
 
 <!-- badges: start -->
+[![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
+[![CRAN status](https://www.r-pkg.org/badges/version/favawesome)](https://CRAN.R-project.org/package=favawesome)
+[![Codecov test coverage](https://codecov.io/gh/shinyworks/favawesome/graph/badge.svg)](https://app.codecov.io/gh/shinyworks/favawesome)
+[![R-CMD-check](https://github.com/shinyworks/favawesome/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/shinyworks/favawesome/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 The goal of favawesome is to...
