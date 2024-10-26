@@ -1,3 +1,3 @@
-# favawesome (development version)
+# favawesome 0.1.0
 
 * Initial CRAN submission.
