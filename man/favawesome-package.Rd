@@ -13,7 +13,7 @@ Easily use 'Font Awesome' icons as 'Shiny' 'favicons' (the icons that appear on 
 \seealso{
 Useful links:
 \itemize{
-  \item \url{https://shinyworks.github.io/favawesome/}
+  \item \url{https://favawesome.shinyworks.org}
   \item \url{https://github.com/shinyworks/favawesome}
   \item Report bugs at \url{https://github.com/shinyworks/favawesome/issues}
 }

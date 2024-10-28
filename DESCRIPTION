@@ -10,7 +10,7 @@ Description: Easily use 'Font Awesome' icons as 'Shiny' 'favicons' (the
     simple way to use these icons as 'favicons' in 'Shiny' applications
     and other HTML pages.
 License: MIT + file LICENSE
-URL: https://shinyworks.github.io/favawesome/,
+URL: https://favawesome.shinyworks.org,
     https://github.com/shinyworks/favawesome
 BugReports: https://github.com/shinyworks/favawesome/issues
 Imports: 

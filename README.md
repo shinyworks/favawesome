@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# favawesome <a href="https://shinyworks.github.io/favawesome/"><img src="man/figures/logo.png" align="right" height="139" alt="favawesome website" /></a>
+# favawesome <a href="https://favawesome.shinyworks.org"><img src="man/figures/logo.png" align="right" height="139" alt="favawesome website" /></a>
 
 <!-- badges: start -->
 
@@ -77,5 +77,5 @@ htmltools::html_print(html_page, viewer = utils::browseURL)
 
 Please note that the {favawesome} project is released with a
 [Contributor Code of
-Conduct](https://shinyworks.github.io/favawesome/CODE_OF_CONDUCT.html).
-By contributing to this project, you agree to abide by its terms.
+Conduct](https://favawesome.shinyworks.org/CODE_OF_CONDUCT.html). By
+contributing to this project, you agree to abide by its terms.
