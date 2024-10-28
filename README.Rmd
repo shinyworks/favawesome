@@ -13,7 +13,7 @@ knitr::opts_chunk$set(
 )
 ```
 
-# favawesome <a href="https://shinyworks.github.io/favawesome/"><img src="man/figures/logo.png" align="right" height="139" alt="favawesome website" /></a>
+# favawesome <a href="https://favawesome.shinyworks.org"><img src="man/figures/logo.png" align="right" height="139" alt="favawesome website" /></a>
 
 <!-- badges: start -->
 [![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
@@ -73,4 +73,4 @@ htmltools::html_print(html_page, viewer = utils::browseURL)
 
 ## Code of Conduct
 
-Please note that the {favawesome} project is released with a [Contributor Code of Conduct](https://shinyworks.github.io/favawesome/CODE_OF_CONDUCT.html). By contributing to this project, you agree to abide by its terms.
+Please note that the {favawesome} project is released with a [Contributor Code of Conduct](https://favawesome.shinyworks.org/CODE_OF_CONDUCT.html). By contributing to this project, you agree to abide by its terms.
