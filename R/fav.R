@@ -1,13 +1,13 @@
 #' Use Font Awesome icons as favicons
 #'
 #' Generate the html necessary to use a Font Awesome icon as the favicon (the
-#' icon that appears on browser tabs) for a Shiny app or other HTML document.
+#' icon that appears on browser tabs) for a shiny app or other HTML document.
 #'
 #' @inheritParams .fav_encode
 #' @inheritDotParams fontawesome::fa
 #'
 #' @return A `shiny.tag` (see [htmltools::tag()]) that can be used to embed a
-#'   favicon in a Shiny app or other HTML document.
+#'   favicon in a shiny app or other HTML document.
 #' @export
 #' @examplesIf interactive()
 #' html_page <- htmltools::tags$html(

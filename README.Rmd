@@ -22,9 +22,9 @@ knitr::opts_chunk$set(
 [![R-CMD-check](https://github.com/shinyworks/favawesome/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/shinyworks/favawesome/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
-Easily use {[fontawesome](https://rstudio.github.io/fontawesome/)} icons as Shiny favicons (the icons that appear on browser tabs).
+Easily use {[fontawesome](https://rstudio.github.io/fontawesome/)} icons as shiny favicons (the icons that appear on browser tabs).
 [Font Awesome](https://fontawesome.com/) is a popular set of icons that can be used in web pages.
-{favawesome} provides a simple way to use these icons as favicons in Shiny applications and other HTML pages.
+{favawesome} provides a simple way to use these icons as favicons in shiny applications and other HTML pages.
 
 ## Installation
 
@@ -47,7 +47,7 @@ pak::pak("shinyworks/favawesome")
 
 ## Motivation
 
-If you've spent time in the Chrome Developer Tools Console (ctrl + shift + I) for Shiny apps, you may have seen this familiar error message:
+If you've spent time in the Chrome Developer Tools Console (ctrl + shift + I) for shiny apps, you may have seen this familiar error message:
 
 ```{r fig.alt="Failed to load resource: the server responded with a status of 404 () /favicon.ico:1", echo=FALSE}
 knitr::include_graphics("man/figures/README-favicon_not_found.png")
@@ -58,7 +58,7 @@ This package does not add any dependencies that are not already required by {[sh
 
 ## Usage
 
-Add a call to `favawesome::fav()` to your Shiny UI code or other HTML.
+Add a call to `favawesome::fav()` to your shiny UI code or other HTML.
 
 ``` r
 html_page <- htmltools::tags$html(

@@ -6,8 +6,9 @@
 # imports: [fontawesome, htmltools, jsonlite, rsvg]
 # ---
 #
-# Provides the fav() function from {favawesome} as stand-alone code for use in
-# packages that can't import favawesome. See usethis::use_standalone() for usage
+# Provides the fav() function from {favawesome} as favawesome_icon(), with
+# stand-alone code for use in packages that can't import favawesome. See
+# favawesome::use_favawesome_standalone() or usethis::use_standalone() for usage
 # details.
 #
 # ## Changelog
@@ -21,10 +22,10 @@
 #' Use Font Awesome icons as favicons
 #'
 #' Generate the html necessary to use a Font Awesome icon as the favicon (the
-#' icon that appears on browser tabs) for a Shiny app or other HTML document.
+#' icon that appears on browser tabs) for a shiny app or other HTML document.
 #'
 #' @return A `shiny.tag` (see [htmltools::tag()]) that can be used to embed a
-#'   favicon in a Shiny app or other HTML document.
+#'   favicon in a shiny app or other HTML document.
 #' @noRd
 favawesome_icon <- function(name, ...) {
   fav_base64 <- .standalone_fav_encode(name, ...)

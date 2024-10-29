@@ -4,11 +4,11 @@
 \name{favawesome-package}
 \alias{favawesome}
 \alias{favawesome-package}
-\title{favawesome: 'Font Awesome' Icons as 'Shiny' 'favicons'}
+\title{favawesome: 'Font Awesome' Icons as 'shiny' 'favicons'}
 \description{
 \if{html}{\figure{logo.png}{options: style='float: right' alt='logo' width='120'}}
 
-Easily use 'Font Awesome' icons as 'Shiny' 'favicons' (the icons that appear on browser tabs). 'Font Awesome' is a popular set of icons that can be used in web pages. 'favawesome' provides a simple way to use these icons as 'favicons' in 'Shiny' applications and other HTML pages.
+Easily use 'Font Awesome' icons as 'shiny' 'favicons' (the icons that appear on browser tabs). 'Font Awesome' (\url{https://fontawesome.com/}) is a popular set of icons that can be used in web pages. 'favawesome' provides a simple way to use these icons as 'favicons' in 'shiny' applications and other HTML pages.
 }
 \seealso{
 Useful links:
