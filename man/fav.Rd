@@ -59,11 +59,11 @@ result in no accessibility features for the icon.}
 }
 \value{
 A \code{shiny.tag} (see \code{\link[htmltools:builder]{htmltools::tag()}}) that can be used to embed a
-favicon in a Shiny app or other HTML document.
+favicon in a shiny app or other HTML document.
 }
 \description{
 Generate the html necessary to use a Font Awesome icon as the favicon (the
-icon that appears on browser tabs) for a Shiny app or other HTML document.
+icon that appears on browser tabs) for a shiny app or other HTML document.
 }
 \examples{
 \dontshow{if (interactive()) (if (getRversion() >= "3.4") withAutoprint else force)(\{ # examplesIf}

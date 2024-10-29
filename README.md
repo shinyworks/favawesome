@@ -15,10 +15,10 @@ coverage](https://codecov.io/gh/shinyworks/favawesome/graph/badge.svg)](https://
 <!-- badges: end -->
 
 Easily use {[fontawesome](https://rstudio.github.io/fontawesome/)} icons
-as Shiny favicons (the icons that appear on browser tabs). [Font
+as shiny favicons (the icons that appear on browser tabs). [Font
 Awesome](https://fontawesome.com/) is a popular set of icons that can be
 used in web pages. {favawesome} provides a simple way to use these icons
-as favicons in Shiny applications and other HTML pages.
+as favicons in shiny applications and other HTML pages.
 
 ## Installation
 
@@ -48,7 +48,7 @@ pak::pak("shinyworks/favawesome")
 ## Motivation
 
 If you’ve spent time in the Chrome Developer Tools Console (ctrl +
-shift + I) for Shiny apps, you may have seen this familiar error
+shift + I) for shiny apps, you may have seen this familiar error
 message:
 
 <img src="man/figures/README-favicon_not_found.png" alt="Failed to load resource: the server responded with a status of 404 () /favicon.ico:1" width="100%" />
@@ -60,7 +60,7 @@ already required by {[shiny](https://shiny.posit.co/r/)}.
 
 ## Usage
 
-Add a call to `favawesome::fav()` to your Shiny UI code or other HTML.
+Add a call to `favawesome::fav()` to your shiny UI code or other HTML.
 
 ``` r
 html_page <- htmltools::tags$html(

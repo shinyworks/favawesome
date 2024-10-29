@@ -1,14 +1,14 @@
 Package: favawesome
-Title: 'Font Awesome' Icons as 'Shiny' 'favicons'
-Version: 0.1.0
+Title: 'Font Awesome' Icons as 'shiny' 'favicons'
+Version: 0.1.0.9000
 Authors@R: 
     person("Jon", "Harmon", , "jonthegeek@gmail.com", role = c("aut", "cre", "cph"),
            comment = c(ORCID = "0000-0003-4781-4346"))
-Description: Easily use 'Font Awesome' icons as 'Shiny' 'favicons' (the
-    icons that appear on browser tabs).  'Font Awesome' is a popular set
-    of icons that can be used in web pages.  'favawesome' provides a
-    simple way to use these icons as 'favicons' in 'Shiny' applications
-    and other HTML pages.
+Description: Easily use 'Font Awesome' icons as 'shiny' 'favicons' (the
+    icons that appear on browser tabs).  'Font Awesome' 
+    (<https://fontawesome.com/>) is a popular set of icons that can be used in 
+    web pages.  'favawesome' provides a simple way to use these icons as 
+    'favicons' in 'shiny' applications and other HTML pages.
 License: MIT + file LICENSE
 URL: https://favawesome.shinyworks.org,
     https://github.com/shinyworks/favawesome
@@ -17,9 +17,12 @@ Imports:
     fontawesome,
     htmltools,
     jsonlite,
+    rlang,
     rsvg
 Suggests: 
-    testthat (>= 3.0.0)
+    cli,
+    testthat (>= 3.0.0),
+    usethis
 Config/testthat/edition: 3
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
