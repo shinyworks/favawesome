@@ -28,7 +28,7 @@ Easily use {[fontawesome](https://rstudio.github.io/fontawesome/)} icons as shin
 
 ## Installation
 
-::: .pkgdown-release
+::: {.pkgdown-release}
 You can install the latest release of favawesome from [CRAN](https://CRAN.R-project.org) with:
 
 ``` r
@@ -36,7 +36,7 @@ install.packages("favawesome")
 ```
 :::
 
-::: .pkgdown-devel
+::: {.pkgdown-devel}
 You can install the development version of favawesome from [GitHub](https://github.com/) with:
 
 ``` r

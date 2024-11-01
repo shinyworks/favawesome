@@ -22,7 +22,7 @@ as favicons in shiny applications and other HTML pages.
 
 ## Installation
 
-<div class=".pkgdown-release">
+<div class="pkgdown-release">
 
 You can install the latest release of favawesome from
 [CRAN](https://CRAN.R-project.org) with:
@@ -33,7 +33,7 @@ install.packages("favawesome")
 
 </div>
 
-<div class=".pkgdown-devel">
+<div class="pkgdown-devel">
 
 You can install the development version of favawesome from
 [GitHub](https://github.com/) with:
