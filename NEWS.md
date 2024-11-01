@@ -1,3 +1,5 @@
+# favawesome (development version)
+
 # favawesome 0.1.1
 
 * Added new function `use_favawesome_standalone()` to allow app developers to
